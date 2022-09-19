@@ -163,7 +163,7 @@ class Child(Frame):
         self.label_time = None
         Main(tk)
 
-    def wrap(self, string, lenght=10):
+    def wrap(self, string, lenght=20):
         return '\n'.join(textwrap.wrap(string, lenght))
 
 
