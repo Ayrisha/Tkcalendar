@@ -104,8 +104,8 @@ class Child(Frame):
         frame_tree.place(x=400, y=45)
 
         self.tree = Treeview(frame_tree, columns=('Date', 'Event'), height=11, show='headings')
-        self.tree.column('Date', width=55, anchor=CENTER)
-        self.tree.column('Event', width=110, anchor=CENTER)
+        self.tree.column('Date', width=80, anchor=CENTER)
+        self.tree.column('Event', width=100, anchor=CENTER)
         self.tree.heading('Date', text='Date')
         self.tree.heading('Event', text='Event')
         self.tree.pack(side=LEFT)
